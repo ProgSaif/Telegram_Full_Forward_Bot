@@ -3,7 +3,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "python main.py",
-    "healthcheckPath": "/"
+    "startCommand": "python main.py"
   }
 }
