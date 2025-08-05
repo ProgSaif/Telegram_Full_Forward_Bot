@@ -3,11 +3,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "python main.py",
-    "healthcheckPath": "/",
-    "ports": {
-      "type": "web",
-      "httpPort": 8000  # Telegram bots don't need HTTP
-    }
+    "startCommand": "python main.py"
   }
 }
